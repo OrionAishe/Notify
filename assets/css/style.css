@@ -1,6 +1,5 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: gray;
     margin: 0px;
     font-size: 16pt;
     border-top:  rgb(0, 163, 0) 10px solid;
@@ -8,6 +7,7 @@ body{
 
 h1{
     font-family: 'Pacifico', cursive;
+    font-weight: normal;
 }
 
 #ponto{
@@ -16,6 +16,8 @@ h1{
 
 .banner{
     background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
     height: 600px;
@@ -49,7 +51,7 @@ h1{
     list-style: none;
     margin: 0;
     padding: 0;
-
+    
 }
 
 .icones>ul>a>li{
@@ -70,9 +72,10 @@ h1{
     display: flex;
     background-color: white;
     text-align: center;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    
 }
 
 .container>div{
@@ -94,13 +97,13 @@ h1{
     font-size: 13pt;
     color: rgb(194, 194, 194);
     flex-wrap: wrap;
-
+    
     padding-left: 70px;
     padding-right: 70px;
 }
 
 .video{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(227, 227, 227);
     display: flex;
     justify-content: space-between;
     text-align: justify;
@@ -122,9 +125,8 @@ h1{
 }
 
 .textocinza-2{
-    color: gray;
+    color: rgb(132, 132, 132);
     font-size: 13pt;
-
 }
 
 .caixa-texto{
@@ -149,4 +151,82 @@ h1{
 form{
     display: flex;
     justify-content: space-evenly;
+}
+
+.container-b{
+    background-color: white;
+    text-align: center;
+}
+
+.frase{
+    font-style: italic;
+    color: rgb(132, 132, 132);
+    font-size: 13pt;
+}
+
+.nome{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.texto-1{
+    padding-top: 40px;
+}
+
+.fotos ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.texto-2 h2{
+    font-size: 18pt;
+}
+
+.texto-2 p{
+    font-size: 11pt;
+    color: rgb(133, 133, 133);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul{
+    list-style: none;
+    display: flex;
+}
+
+.icons li{
+    background-color: rgb(132, 132, 132);
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    width: 26px;
+    display: flex;
+    justify-content: center
+}
+
+.icons li:hover{
+    background-color:  rgb(0, 163, 0);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+footer li{
+    padding-left: 20px;
+    color: rgb(132, 132, 132);
+    font-size: 10pt;
 }
