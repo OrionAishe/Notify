@@ -32,7 +32,11 @@ h1{
     display: flex;
     flex-direction: column;
     color: white;
+    width: 400px;
+}
 
+.textobanner>p{
+    flex-wrap: wrap;
 }
 
 .mao{
@@ -43,9 +47,12 @@ h1{
 .icones>ul{
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
+
 }
 
-.icones>ul>li{
+.icones>ul>a>li{
     display: flex;
     background-color: black;
     margin-left: 10px;
@@ -54,7 +61,7 @@ h1{
     opacity: 0.5;
 }
 
-.icones > ul >li:hover{
+.icones > ul >a>li:hover{
     background-color: rgb(0, 163, 0);
     opacity: 1.0;
 }
@@ -87,7 +94,7 @@ h1{
     font-size: 13pt;
     color: rgb(194, 194, 194);
     flex-wrap: wrap;
-    padding-top: 0px;
+
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -118,4 +125,28 @@ h1{
     color: gray;
     font-size: 13pt;
 
+}
+
+.caixa-texto{
+    padding: 12px 20px; 
+    border-bottom-left-radius:10px; 
+    border-top-left-radius:10px;
+    border-style: none;
+    width: 100%;
+}
+
+.btn{
+    padding: 9px 30px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    background-color: rgb(0, 163, 0);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14pt;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
 }
