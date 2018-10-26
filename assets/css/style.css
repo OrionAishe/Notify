@@ -196,6 +196,29 @@ form>div:nth-child(1){
     justify-content: center;
 }
 
+.fotos li{
+    margin: 5px;
+    height: 50px;
+}
+
+.fotos li:hover{
+    background-color: rgb(0, 163, 0);
+    opacity: 0.5;
+}
+
+.fotos img:hover{
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.fotos > ul >li:first-child{
+    opacity: 0.5;
+}
+
+.fotos > ul > li:last-child{
+    opacity: 0.5;
+}
+
 .texto-2 h2{
     font-size: 18pt;
 }
